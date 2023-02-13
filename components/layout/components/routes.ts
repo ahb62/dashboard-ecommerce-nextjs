@@ -14,8 +14,8 @@ import {
     text: string;
     path?: any;
     sub?: Array<{
-      text: string | undefined;
-      path: string | undefined;
+      text?: string | undefined;
+      path?: string | undefined;
     }>
   }
   

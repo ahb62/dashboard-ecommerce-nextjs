@@ -39,7 +39,7 @@ const RouteItem: React.FC<RouteType> = ({ text, sub, path, icon: Icon }) => {
   useEffect(() => {
     if(isSub) {
       let someSubPathIsMatch = false;
-      sub.forEach((subRoute: any) => {
+      sub?.forEach((subRoute: any) => {
         someSubPathIsMatch = router.asPath.startsWith(subRoute.path);
       });
       if(someSubPathIsMatch) setOpenCollapse(true);
@@ -51,7 +51,7 @@ const RouteItem: React.FC<RouteType> = ({ text, sub, path, icon: Icon }) => {
       return (
         <Collapse in={openCollapse} timeout="auto" unmountOnExit>
           <List component="div" disablePadding>
-            {sub.map((subRoute: any, i: any) => {
+            {sub?.map((subRoute: any, i: any) => {
               const isMatchSubPath = router.asPath.startsWith(subRoute.path);
               return (
                 <ListItemButton 
