@@ -155,7 +155,7 @@ const SideBar: React.FC<SidebarProps> = ({ window, openMenu, setOpenMenu }) => {
         {routesList}
       </List>
     </div>
-  ), [routesList]);
+  ), [openMenu, routesList]);
 
   return (
     <Box

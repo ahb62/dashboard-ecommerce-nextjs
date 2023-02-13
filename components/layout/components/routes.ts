@@ -12,10 +12,10 @@ import {
       muiName: string;
     }
     text: string;
-    path?: string;
+    path?: any;
     sub?: Array<{
-      text: string;
-      path: string;
+      text: string | undefined;
+      path: string | undefined;
     }>
   }
   
