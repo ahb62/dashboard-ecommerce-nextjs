@@ -42,7 +42,7 @@ import {
     { 
       icon: PeopleIcon,
       text: "Usuarios", 
-      path: "/usuarios" 
+      path: "/users" 
     },
   ];
   
