@@ -1,12 +1,9 @@
 import {
     Dashboard as DashboardIcon,
     MonetizationOnOutlined as MonetizationIcon,
-    AccountBalance as AccountBalanceIcon,
     People as PeopleIcon, 
     ShoppingBag as ShoppingBagIcon,
-    Article as ArticleIcon
   } from '@mui/icons-material';
-  import LocalActivityIcon from '@mui/icons-material/LocalActivity';
   import { SvgIconTypeMap } from '@mui/material';
   import { OverridableComponent } from '@mui/material/OverridableComponent';
 
